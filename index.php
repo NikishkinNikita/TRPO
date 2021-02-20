@@ -4,13 +4,7 @@ use Nikita\ClassSquare;
 use Nikita\MyLog;
 use Nikita\NikitaExeption;
 
-include "core/LogAbstract.php";
-include "core/LogInterface.php";
-include "core/EquationInterface.php";
-include "Nikita/ClassLine.php";
-include "Nikita/ClassSquare.php";
-include "Nikita/MyLog.php";
-include "Nikita/NikitaExeption.php";
+require_once(__DIR__."/vendor/autoload.php");
 
 ini_set("display_errors", 1);
 error_reporting(-1);

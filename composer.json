@@ -1,0 +1,17 @@
+{
+    "имя": "NikishkinNikita/TRPOlib",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Nikishkin",
+            "email": "nikishkinnikita@list.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Nikita\\": ""
+        }
+    }
+}
