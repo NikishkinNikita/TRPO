@@ -1,17 +1,25 @@
 {
-    "имя": "NikishkinNikita/TRPOlib",
-    "type": "library",
+    "name": "nikishkinnikita/trpo",
+    "type": "project",
     "authors": [
         {
-            "name": "Nikishkin",
+            "name": "NikishkinNikita",
             "email": "nikishkinnikita@list.ru"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "Nikita\\": ""
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/rok9ru/trpo-core.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/nikishkinnikita/trpolib.git"
         }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "rok9ru/trpo-core":"^2.0",
+        "nikishkinnikita/trpolib":"^1.0"
     }
 }
